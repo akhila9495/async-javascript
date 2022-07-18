@@ -6,16 +6,11 @@ let stocks = {
 
 };
 let is_shop_open = true;
+let toppings_choice =()=> {
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
 
-let order = ()=>{
-    return new Promise((resolve, reject) => { 
-
-        if(){
-            resolve()
-        }
-        else{
-            reject()
-        }
-
+            console.log('which topping would you love?')
+        },3000)
     })
 }
